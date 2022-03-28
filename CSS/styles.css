@@ -53,7 +53,7 @@ h2 {
     align-self: auto;
     order: 0;
     width: 20%;
-    transform: translate(50%, 10%);
+    transform: translate(85%, 10%);
     word-wrap: break-word;
 }
 
@@ -65,7 +65,7 @@ h2 {
     align-self: auto;
     order: 0;
     width: 20%;
-    transform: translate(100%, 10%);
+    transform: translate(170%, 10%);
     word-wrap: break-word;
 }
 
@@ -81,7 +81,7 @@ h2 {
 }
 
 .programtext {
-    padding-left: 1px;
+    padding-left: 5px;
     width: 18%;
 }
 
@@ -102,16 +102,16 @@ h2 {
 }
 
 .mhlogo2 {
-    transform: translate(140%, -18%);
+    transform: translate(230%, -18%);
 }
 
 .mhlogo3 {
-    transform: translate(250%, -18%);
+    transform: translate(450%, -18%);
 }
 
 .mhtext {
     color: #327C7C;
-    transform: translate(5%, 5%);
+    transform: translate(20%, 5%);
     overflow-wrap: break-word;
     inline-size: 1300px;
 }
@@ -128,7 +128,7 @@ h2 {
     box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
     position: relative;
     text-decoration: none;
-    transform: translate(255%, 50%);
+    transform: translate(265%, 50%);
 }
 
 .mywork2 {
@@ -140,24 +140,24 @@ h2 {
 
 .taheader {
     color: #F26363;
-    transform: translate(40%, -180%);
+    transform: translate(42%, -180%);
 }
 
 .talogo1 {
-    transform: translate(120%, -10%);
+    transform: translate(125%, -10%);
 }
 
 .talogo2 {
-    transform: translate(350%, -10%);
+    transform: translate(525%, -10%);
 }
 
 .talogo3 {
-    transform: translate(600%, -10%);
+    transform: translate(985%, -10%);
 }
 
 .tatext {
     color: #F26363;
-    transform: translate(5%, 5%);
+    transform: translate(20%, 5%);
     overflow-wrap: break-word;
     inline-size: 1300px;
 }
@@ -174,7 +174,7 @@ h2 {
     box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
     position: relative;
     text-decoration: none;
-    transform: translate(255%, 50%);
+    transform: translate(264%, 50%);
 }
 
 .View-Case-Study:hover {
