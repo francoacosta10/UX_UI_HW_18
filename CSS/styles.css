@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@100&display=swap');
+
+* {
+   font-family: "Raleway", sans-serif;
+}
+
+body {
+    
+}
+
+.myskills {
+    background-color: #122A40;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+
+.myskillsheader {
+    color: #F26363;
+}
+
+h2 {
+    color: #F26363;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    color: #F26363;
+}
+
+.UserResearch {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 20%;
+    transform: translate(0, 10%);
+    word-wrap: break-word;
+}
+
+.UserFlows {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 20%;
+    transform: translate(50%, 10%);
+    word-wrap: break-word;
+}
+
+.WireframesandPrototypes {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 20%;
+    transform: translate(100%, 10%);
+    word-wrap: break-word;
+}
+
+.programs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0, 40%);
+}
+
+.programimages {
+   flex-basis: 84%;
+}
+
+.programtext {
+    padding-left: 1px;
+    width: 18%;
+}
+
+.mywork1 {
+    background-color: #D8F2F2;
+    width: 100%;
+    height: 200%;
+    padding: 80px 2%;
+}
+
+.mhheader {
+    color: #327C7C;
+    transform: translate(35%, -180%);
+}
+
+.mhlogo1 {
+    transform: translate(35%, -18%);
+}
+
+.mhlogo2 {
+    transform: translate(140%, -18%);
+}
+
+.mhlogo3 {
+    transform: translate(250%, -18%);
+}
+
+.mhtext {
+    color: #327C7C;
+    transform: translate(5%, 5%);
+    overflow-wrap: break-word;
+    inline-size: 1300px;
+}
+
+.View-Case-Study {
+    width: 190px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #D8F2F2;
+    background-color: #327C7C;
+    border-radius: 20px;
+    box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
+    position: relative;
+    text-decoration: none;
+    transform: translate(255%, 50%);
+}
+
+.mywork2 {
+    background-color: #122A40;
+    width: 100%;
+    height: 200%;
+    padding: 80px 2%;
+}
+
+.taheader {
+    color: #F26363;
+    transform: translate(40%, -180%);
+}
+
+.talogo1 {
+    transform: translate(120%, -10%);
+}
+
+.talogo2 {
+    transform: translate(350%, -10%);
+}
+
+.talogo3 {
+    transform: translate(600%, -10%);
+}
+
+.tatext {
+    color: #F26363;
+    transform: translate(5%, 5%);
+    overflow-wrap: break-word;
+    inline-size: 1300px;
+}
+
+.TA-View-Case-Study {
+    width: 190px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #F26363;
+    border-radius: 20px;
+    box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
+    position: relative;
+    text-decoration: none;
+    transform: translate(255%, 50%);
+}
+
+.View-Case-Study:hover {
+    color: #122A40;
+    transition: all ease 0.2s;
+}
+
+.TA-View-Case-Study:hover {
+    color: #122A40;
+    transition: all ease 0.2s;
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        background-color: #327C7C;
+        }
+    }
