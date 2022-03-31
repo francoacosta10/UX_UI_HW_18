@@ -47,27 +47,30 @@ li, a, button {
 .model img {
     width: 250px;
     height: 100%;
-    object-fit: contain;
-    transform: translate(215%, 55%);
+   /* object-fit: contain; */
+
+    /* 
+    transform: translate(215%, 55%); */
 }
 
 .model {
-    width: 500px;
-    height: 530px;
+    /* width: 500px;
+    height: 530px; */
 }
 
 .Download-Resume-btn {
     width: 190px;
     height: 50px;
-    display: flex;
+   /* display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
+    /*float: right; */
     color: #D8F2F2;
     background-color: #122A40;
     border-radius: 20px;
     box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
-    position: relative;
-    transform: translate(550%, -1950%);
+    /* position: relative; */
+    /*transform: translate(550%, -1950%);*/
    
 }
 
@@ -75,8 +78,10 @@ li, a, button {
     width: 600px;
     background-color: white;
     height: 600px;
-    margin: 200px;
-    transform: translate(80%, -100%);
+    margin-right: auto;
+    margin-left: auto;
+   /* margin: 200px;
+   transform: translate(80%, -100%); */
 }
 
 .main-text h1 {
