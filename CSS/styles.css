@@ -4,6 +4,11 @@
    font-family: "Raleway", sans-serif;
 }
 
+.maincontainer {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* --Header--*/
 header {
     display: flex;
@@ -71,7 +76,12 @@ li, a, button {
     box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
     /* position: relative; */
     /*transform: translate(550%, -1950%);*/
-   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    transform: translate(300px, -150px);
+
 }
 
 .main-text {
@@ -107,7 +117,7 @@ li, a, button {
 }
 
 .content {
-    min-height: 100vh;
+    max-height: 720px;
     background-color: #D8F2F2;
     color:#D8F2F2; 
 }
@@ -115,9 +125,10 @@ li, a, button {
 /* --myskills--*/
 .myskills {
     background-color: #122A40;
-    width: 100%;
-    height: 100%;
-    padding: 2%;
+   /* width: 100%;*/
+    height: auto;
+    padding: 30px 10%;
+    box-sizing: content-box;
 }
 
 .myskillsheader {
@@ -183,24 +194,28 @@ h2 {
 
 .programimages {
    flex-basis: 84%;
+   padding: 0 0 60px 0;
+   box-sizing: content-box;
 }
 
 .programtext {
-    padding-left: 5px;
-    width: 18%;
+    padding: 0 0 60px 0;
+    width: 25%;
+    box-sizing: content-box;
 }
 
 /* --mywork1--*/
 .mywork1 {
     background-color: #D8F2F2;
-    width: 100%;
+    /* width: 100%;*/
     height: 200%;
-    padding: 80px 2%;
+    box-sizing: content-box;
+    padding: 30px 10%;
 }
 
 .mhheader {
     color: #327C7C;
-    transform: translate(40%, -180%);
+    transform: translate(35%, -110%);
 }
 
 .mhwireframes {
@@ -240,20 +255,20 @@ h2 {
     box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
     position: relative;
     text-decoration: none;
-    transform: translate(450%, 50%);
+    transform: translate(245%, 20%);
 }
 
 /* --mywork2--*/
 .mywork2 {
     background-color: #122A40;
-    width: 100%;
+    /* width: 100%;*/
     height: 200%;
-    padding: 80px 2%;
+    padding: 30px 10%;
 }
 
 .taheader {
     color: #F26363;
-    transform: translate(47%, -180%);
+    transform: translate(44%, -110%);
 }
 
 /* .talogo1 {
@@ -287,7 +302,7 @@ h2 {
     box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
     position: relative;
     text-decoration: none;
-    transform: translate(455%, 50%);
+    transform: translate(245%, 5%);
 }
 
 .View-Case-Study:hover {
@@ -308,7 +323,7 @@ h2 {
 
 footer {
     display: flex;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
     align-items: center;
     padding: 30px 10%;
     background-color: #122A40
