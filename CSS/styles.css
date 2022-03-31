@@ -226,11 +226,11 @@ h2 {
 /* .mhlogo1 {
 
    /* transform: translate(35%, -18%);*/
-} 
+
 
 /* /.mhlogo2 {
   /*  transform: translate(230%, -18%); */
-} 
+
 
  /* .mhlogo3 {
   transform: translate(450%, -18%);
@@ -286,6 +286,7 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
+
 .tatext {
     color: #F26363;
 }
