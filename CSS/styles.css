@@ -75,8 +75,8 @@ li, a, button {
     justify-content: space-around;
     align-items: center; */
     /*float: right; */
-    color: #D8F2F2;
-    background-color: #122A40;
+    color: #FFFFFF;
+    background-color: #1E4959;
     border-radius: 20px;
     box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
     /* position: relative; */
@@ -117,7 +117,7 @@ li, a, button {
 
 
 .Download-Resume-btn:hover {
-    color: #327C7C;
+    color: #D8F2F2;
     transition: all ease 0.2s;
 }
 
@@ -254,13 +254,18 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #D8F2F2;
-    background-color: #327C7C;
+    color: #FFFFFF;
+    background-color: #1E4959;
     border-radius: 20px;
     box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
     position: relative;
     text-decoration: none;
     transform: translate(245%, 20%);
+}
+
+.View-Case-Study:hover {
+    color: #D8F2F2;
+    transition: all ease 0.2s;
 }
 
 /* --mywork2--*/
@@ -303,7 +308,7 @@ h2 {
     justify-content: space-around;
     align-items: center;
     color: #FFFFFF;
-    background-color: #F26363;
+    background-color: #1E4959;
     border-radius: 20px;
     box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
     position: relative;
@@ -311,13 +316,9 @@ h2 {
     transform: translate(245%, 5%);
 }
 
-.View-Case-Study:hover {
-    color: #122A40;
-    transition: all ease 0.2s;
-}
 
 .TA-View-Case-Study:hover {
-    color: #122A40;
+    color: #D8F2F2;
     transition: all ease 0.2s;
 }
 

@@ -22,3 +22,21 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+$(document).ready(function() {
+  $(".Download-Resume-btn").on("click", function() {
+    alert("Resume is almost ready!");
+  })
+})  
+
+$(document).ready(function() {
+  $(".View-Case-Study").on("click", function() {
+    alert("Case Study is almost ready!");
+  })
+})  
+
+$(document).ready(function() {
+  $(".TA-View-Case-Study").on("click", function() {
+    alert("Case Study is almost ready!");
+  })
+})  
