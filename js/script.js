@@ -29,11 +29,6 @@ $(document).ready(function() {
   })
 })  
 
-$(document).ready(function() {
-  $(".View-Case-Study").on("click", function() {
-    alert("Case Study is almost ready!");
-  })
-})  
 
 $(document).ready(function() {
   $(".TA-View-Case-Study").on("click", function() {
